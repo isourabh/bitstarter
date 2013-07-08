@@ -2,4 +2,4 @@
 var fs = require('fs');
 var file = "index.html";
 var buffer = new Buffer(fs.readFileSync(file));
-buffer.toString(); 
+console.log(buffer.toString());
